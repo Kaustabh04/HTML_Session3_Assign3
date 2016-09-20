@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">  
+    <title>HTML Form</title>
+	<link rel="stylesheet" href="formStyle.css">
+  </head>
+  
+  <body>
+    <form action="" method="">
+	
+	<div id="container">
+	 
+	 <!-- Step 1 start -->
+	 <header>
+	   <h4>Step 1: Your details</h4>
+	 </header>
+	 <div class="formWrapper">
+	   <div class="formTxt">Name</div>
+	   <div class="formInput"><input type = "text" name = "fullName" placeholder="First and last name"></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Email</div>
+	   <div class="formInput"><input type = "text" name = "email" placeholder="example@domain.com"></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Phone</div>
+	   <div class="formInput"><input type = "text" name = "phone" placeholder="eg. +447500000000"></div>
+	 </div>
+	 <!-- Step 1 end -->
+	 
+	 <!-- Step 2 start -->
+	 <header>
+	   <h4>Step 2: Delivery address</h4>
+	 </header>
+	 
+	 <div class="formWrapper">
+	   <div class="formTxt">Address</div>
+	   <div class="formInput"><textarea rows="5"></textarea></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Post code</div>
+	   <div class="formInput"><input type = "text" name = "postCode"></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Country</div>
+	   <div class="formInput"><input type = "text" name = "country"></div>
+	 </div>	 
+	 <!-- Step 2 end -->
+	 
+	 <!-- Step 3 start -->
+	 <header>
+	   <h4>Step 3: Card details</h4>
+	 </header>
+	 
+	 <div class="formWrapper">
+	   <div class="formTxt-1">Card type</div>
+	   <div class="radioCont">
+	      <input type="radio" name="option" id="visa" value="no">&nbsp;	  
+		  <label for="yes">Visa</label>
+	      <input type="radio" name="option" id="amEx" value="no">&nbsp;	  
+		  <label for="yes">AmEx</label>
+	      <input type="radio" name="option" id="master" value="no">&nbsp;	  
+		  <label for="yes">Mastercard</label>  		  
+	   </div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Card number</div>
+	   <div class="formInput"><input type = "text" name = "cardNum"></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Security code</div>
+	   <div class="formInput"><input type = "text" name = "secCode"></div>
+	 </div>
+	 <div class="formWrapper">
+	   <div class="formTxt">Name on card</div>
+	   <div class="formInput"><input type = "text" name = "phone" placeholder="exact name on the card"></div>
+	 </div>
+     <div style="float:left; padding:10px 40% 10px 40%;">
+	    <input type = "button" value = "BUY IT!">
+     </div>	 
+	 <!-- Step 3 end -->	 
+	 
+	</div>
+	
+	</form>
+  </body>
+  
+</html>
